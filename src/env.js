@@ -14,6 +14,7 @@ for (const str of argList) {
 
 dotenv.config({
     path: 'src/.env.' + args.env,
+    quiet:true,
 });
 
 export const PORT = +process.env.PORT ?? 5517;
