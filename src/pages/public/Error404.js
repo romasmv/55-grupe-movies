@@ -1,6 +1,11 @@
-import { PageTemplate } from "../templates/PageTemplate.js";
+import { PageTemplate } from "../../templates/PageTemplate.js";
 
 export class PageError404 extends PageTemplate {
+    constructor(req) {
+        super(req);
+        this.pageJS = 'error404';
+    }
+
     main() {
         return `
             <main class="container">

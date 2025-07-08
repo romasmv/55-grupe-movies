@@ -1,4 +1,3 @@
-
 import dotenv from 'dotenv';
 
 const argList = process.argv.slice(2);
@@ -14,7 +13,7 @@ for (const str of argList) {
 
 dotenv.config({
     path: 'src/.env.' + args.env,
-    quiet:true,
+    quiet: true,
 });
 
 export const PORT = +process.env.PORT ?? 5517;
@@ -24,3 +23,4 @@ export const DB_PORT = +process.env.DB_PORT ?? 3306;
 export const DB_DATABASE = process.env.DB_DATABASE ?? 'test_db';
 export const DB_USER = process.env.DB_USER ?? 'test_user';
 export const DB_PASSWORD = process.env.DB_PASSWORD ?? 'test_password';
+export const COOKIE_MAX_AGE = +process.env.COOKIE_MAX_AGE ?? 3600;
