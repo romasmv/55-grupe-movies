@@ -21,9 +21,6 @@ export class PageDashboard extends AdminTemplate {
         const seconds = secondsLeft % 60;
         const minutes = (secondsLeft - seconds) / 60;
 
-        console.log(cookie);
-        
-
         return `
             <main>
                <div class="container">
