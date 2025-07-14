@@ -8,6 +8,7 @@ import { PageAdminMovies } from '../pages/admin/movies/Movies.js';
 import { PageAdminMoviesDraft } from '../pages/admin/movies/MoviesDraft.js';
 import { PageAdminMoviesNew } from '../pages/admin/movies/MoviesNew.js';
 import { PageAdminMoviesPublished } from '../pages/admin/movies/MoviesPublished.js';
+import { PageAdminCategoriesEdit } from '../pages/admin/categories/CategoriesEdit.js';
 
 export const adminPageRouter = express.Router();
 
