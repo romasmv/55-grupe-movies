@@ -9,7 +9,7 @@ export class PageMovies extends PageTemplate {
         super(req);
     }
 
-  async  main() {
+    async main() {
         return `
             <main>
                 ${pageTitle('Movies')}
