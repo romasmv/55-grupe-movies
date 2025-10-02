@@ -6,7 +6,7 @@ _website project_
 
 ## 🌟 About
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is for educational purposes only. On this page, I use React for the frontend, Express.js for the backend, and a phpMyAdmin MariaDB MySQL database. The page includes React context wrappers, state management, and useEffect hooks. It features user registration and login with hashed passwords. Each master has a like count, represented by a FontAwesome heart icon (red for liked, white for not liked). Likes are stored in the database
 
 Site published at: https://romasmv.github.io/55-grupe-movies/
 
